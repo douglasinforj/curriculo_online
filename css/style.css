@@ -7,8 +7,20 @@ body {
     color: #333;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    padding: 20px;
+    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+
+
 resume{
     max-width: 800px;
+    width: 100%;
     margin: 20px auto;
     background: black;
     padding: 20px;
@@ -35,7 +47,19 @@ header .social-link a{
     color:  #007bff;
     text-decoration: none;
     margin: 0 5px;
+    font-weight: bold;
 }
 header .social-link a:hover {
     text-decoration: underline;
+}
+
+/*Estilizando Main*/
+main {
+    max-width: 800px; 
+    width: 100%; 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
 }
