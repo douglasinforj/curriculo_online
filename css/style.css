@@ -7,3 +7,35 @@ body {
     color: #333;
 }
 
+resume{
+    max-width: 800px;
+    margin: 20px auto;
+    background: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #dbdee2;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin:0
+}
+header .title{
+    font-size: 1.2rem;
+    color: #777;
+}
+header .contact a,
+header .social-link a{
+    color:  #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+header .social-link a:hover {
+    text-decoration: underline;
+}
