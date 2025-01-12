@@ -90,14 +90,26 @@ main h2 {
     margin: 0;
 }
 .skills li {
-    background: #d8dadd;
+    background: #e7e9ec;
     color: #333;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
 
 }
-
+.experience{
+    margin-bottom: 20px;
+}
+.project {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.project h3 {
+    margin: 0 0 5px;
+}
 
 
 
