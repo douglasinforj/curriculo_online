@@ -65,6 +65,7 @@ header h1 {
 header h6{
     margin: 0;
     font-size: 1rem;
+    color: #777;
 }
 
 header .title {
