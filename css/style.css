@@ -26,7 +26,25 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;             /*Animação para transição suave*/
 }
+
+
+/*Adicione animações para transições suaves:*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
 
 /* Header */
 header {
@@ -66,6 +84,9 @@ header .social-link  a:hover {
 header .contact  a:hover {
     text-decoration: underline;
     background-color: #0056b3;
+}
+a {
+    text-decoration: none;
 }
 
 /* Estilizando Main */
