@@ -11,7 +11,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;  /*Alinha mais o top ao inves de center*/
     min-height: 100vh;
     padding: 20px;
     background-color: #f4f4f9;
@@ -72,7 +72,10 @@ main {
     max-width: 800px;
     width: 100%;
     padding: 20px;
+    margin-top: 0;   /*controlar o espaço entre header e main*/
 }
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {
