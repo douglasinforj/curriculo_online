@@ -32,6 +32,8 @@ header {
     text-align: center;
     margin-bottom: 20px;
     background-color: #dbdee2;
+    /*background: linear-gradient(90deg, #007bff, #ff6f61);
+    color: black;*/
     padding: 10px 0;
     border-radius: 8px;
 }
@@ -48,14 +50,21 @@ header .title {
 
 header .contact a,
 header .social-link a {
-    color: #007bff;
-    text-decoration: none;
-    margin: 0 5px;
-    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-header .social-link a:hover {
+header .social-link  a:hover {
     text-decoration: underline;
+    background-color: #0056b3;
+}
+
+header .contact  a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
 }
 
 /* Estilizando Main */
