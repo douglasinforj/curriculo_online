@@ -138,6 +138,9 @@ main h2 {
 .project h3 {
     margin: 0 0 5px;
 }
+.project a {
+    color: #007BFF;
+}
 
 
 
